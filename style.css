@@ -1,0 +1,959 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Scrollbar  */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 2px;
+    border-radius: 16px;
+
+    background-color: #0099ff;
+}
+
+::-webkit-scrollbar-track {
+    color: #0099ff;
+}
+
+
+
+
+
+
+
+
+/* Header  Section  */
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #0d9eff;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+    z-index: 2;
+
+}
+
+
+.btn4 {
+    border: 2px solid white;
+    padding: 10px 18px;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.btn4:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(0.9);
+}
+
+.btn4 i {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.logo {
+
+    cursor: pointer;
+    transition: 0.5s;
+    /* border-radius: 100%;  */
+    /* padding: 8px 18px;
+    font-size: 28px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 16px #0099ff; */
+}
+
+.logo:hover {
+    transform: scale(0.9);
+}
+
+
+.logo span {
+    color: #0099ff;
+}
+
+
+
+nav ul {
+    margin-right: 500px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    transition: transform 0.5s;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+
+.header-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.text-img {
+    width: 420px;
+    height: 420px;
+    background: transparent;
+    border-radius: 50%;
+    border: 4px solid #0099ff;
+    background: url(image/IMG_20230820_122644\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    top: -80px;
+    box-shadow: 0px 0px 20px #0099ff;
+
+}
+
+
+
+
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #0099ff;
+
+}
+
+
+
+
+/* About Section  */
+
+#about {
+    padding: 50px 0px;
+    color: #ababab;
+    margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-col-1 {
+    width: 35%;
+
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.about-col-2 {
+    width: 50%;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 60px;
+}
+
+
+
+
+.details {
+    display: flex;
+
+}
+
+
+.birth-day {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.birth-day h3 {
+    margin: 10px 0px;
+}
+
+.birth-day p {
+    margin: 12px 36px 0px 10px;
+
+}
+
+.birth-day h3 i {
+    color: #0099ff;
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills  */
+
+
+
+#skills {
+    margin-bottom: 80px;
+    padding: 50px 0;
+}
+
+
+.skill-det {
+    margin-top: 50px;
+}
+
+.html p {
+    width: 100%;
+    background-color: gray;
+    height: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.html p span {
+    position: absolute;
+    width: 90%;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #0099ffee;
+
+
+    /* animation: progress 2s  forwards;
+    opacity: 0; */
+}
+
+/* @keyframes progress {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+
+
+
+
+
+
+
+.html-perc {
+    margin-bottom: 12px;
+}
+
+.html-perc span {
+    position: absolute;
+    right: 280px;
+}
+
+
+
+
+.css p {
+    width: 100%;
+    background-color: gray;
+    height: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.css p span {
+    position: absolute;
+    width: 88%;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #5eff00d5;
+}
+
+
+
+.css-perc {
+    margin-bottom: 12px;
+}
+
+.css-perc span {
+    position: absolute;
+    right: 308px;
+}
+
+
+
+
+.boot p {
+    width: 100%;
+    background-color: grey;
+    height: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+
+.boot p span {
+    position: absolute;
+    width: 86%;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #ffe600;
+}
+
+
+.boot-perc {
+    margin-bottom: 12px;
+}
+
+.boot-perc span {
+    position: absolute;
+    right: 336px;
+}
+
+
+
+.js p {
+    width: 100%;
+    background-color: grey;
+    height: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.js p span {
+    position: absolute;
+    width: 85%;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #ff006f;
+}
+
+
+.js-perc {
+    margin-bottom: 12px;
+}
+
+.js-perc span {
+    position: absolute;
+    right: 348px;
+}
+
+
+
+.php p {
+    width: 100%;
+    background-color: grey;
+    height: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.php p span {
+    position: absolute;
+    width: 92%;
+    height: 18px;
+    border-radius: 10px;
+    background-color: #9900ff;
+}
+
+.php-perc {
+    margin-bottom: 12px;
+}
+
+.php-perc span {
+    position: absolute;
+    right: 265px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Serverces  */
+
+
+
+#services {
+    padding: 50px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    height: 350px;
+
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 6px;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+
+.services-list div:hover {
+    background: #0099ff;
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 16px skyblue;
+}
+
+
+.services-list div:hover a {
+    border: 2px solid rgb(239, 247, 215);
+    border-radius: 6px;
+}
+
+
+
+
+
+
+/* My Work  */
+
+
+#portfolio {
+    padding: 50px 0;
+
+}
+
+.work-list {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(29, 29, 29, 0.6), #0099ff);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a {
+    margin-top: 50px;
+    color: #0099ff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.work:hover img {
+    transform: scale(1.2);
+}
+
+.work:hover .layer {
+    height: 100%;
+
+}
+
+
+
+.btn {
+    position: relative;
+    display: flex;
+    margin: 50px auto;
+    width: fit-content;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #0099ff;
+    text-decoration: none;
+    border: 2px solid #0099ff;
+    border-radius: 6px;
+    padding: 10px 30px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.btn:hover {
+    color: white;
+    box-shadow: 0px 0px 40px #0099ff;
+
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0;
+    height: 100%;
+    background: #0099ff;
+    z-index: -1;
+    transition: 1s;
+}
+
+.btn:hover::before {
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+/* Contact  */
+
+
+#contact {
+    padding: 50px 0;
+
+}
+
+
+.cont-detials {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.cont-detials h3 {
+    margin: 10px 0px;
+}
+
+.cont-detials p {
+    margin: 12px 36px 0px 10px;
+
+}
+
+.cont-detials h3 i {
+    color: #0099ff;
+    margin-right: 6px;
+}
+
+
+.social-icons {
+    margin-top: 30px;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #0099ff;
+    transform: translateY(-5px);
+}
+
+
+.btn.btn2 {
+    display: inline-block;
+}
+
+.contact-right form {
+    width: 100%;
+
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #3e3e3ec8;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form p {
+    text-align: center;
+}
+
+form .btn3 {
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: none;
+    width: fit-content;
+
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.copyright i {
+    color: #00c3ff;
+}
+
+
+
+
+
+
+/* Small Screen  */
+
+
+
+nav .fa-solid {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+    #header {
+        background-image: url(image/back.jpg);
+
+    }
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+
+
+
+    nav {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 10px 20px;
+
+    }
+
+
+    nav ul .fa-solid {
+        position: absolute;
+        font-size: 30px;
+        top: 14px;
+        right: 65px;
+        cursor: pointer;
+    }
+
+    nav .fa-solid {
+        position: absolute;
+        display: block;
+        font-size: 26px;
+        top: 16px;
+        right: 20px;
+
+    }
+
+    nav ul {
+        background: #0099ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: -400px;
+        width: 100%;
+        padding-top: 50px;
+        z-index: -2;
+        transition: top 1s;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 24px;
+
+    }
+
+    nav ul li a {
+        font-weight: 600;
+    }
+
+    nav ul li:hover {
+        transform: translate(1px);
+    }
+
+
+    .btn4 {
+        display: none;
+    }
+
+    .header-text {
+        display: block;
+    }
+
+
+
+    .text-img {
+        width: 270px;
+        height: 270px;
+        background: transparent;
+        border-radius: 50%;
+        border: 4px solid #0099ff;
+        background: url(image/IMG_20230820_122644\ \(1\).png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0px;
+        top: 110px;
+        
+    }
+
+
+
+
+    .sub-title {
+        font-size: 40px;
+    }
+
+
+
+    /* Skills */
+
+    .html-perc span {
+        position: absolute;
+        right: 75px;
+    }
+
+    .css-perc span {
+        position: absolute;
+        right: 80px;
+    }
+
+    .boot-perc span {
+        position: absolute;
+        right: 86px;
+    }
+
+    .js-perc span {
+        position: absolute;
+        right: 90px;
+    }
+
+    .php-perc span {
+        position: absolute;
+        right: 68px;
+    }
+
+
+
+
+
+    .about-col-1,
+    .about-col-2 {
+        width: 100%;
+    }
+
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+
+    .about-col-2 {
+        font-size: 14px;
+    }
+
+    .details {
+        display: block;
+    }
+
+
+
+    .contact-left {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+    .copyright {
+        font-size: 14px;
+    }
+
+}
+
+
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
