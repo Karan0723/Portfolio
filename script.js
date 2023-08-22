@@ -1,9 +1,13 @@
 // About sections 
 
 var typed = new Typed('#element', {
-    strings: ['<i>Web Developer</i>   ', '&amp;  PHP Developer', 'and', 'Learner...'],
-    typeSpeed: 60,
+    strings: ['<i>Web Developer</i>   ', ' Frontend Developer', '&amp; Learner...'],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
 });
+
+
 
 
 
