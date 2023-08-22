@@ -881,7 +881,7 @@ nav .fa-solid {
         border: 1px solid white;
         background: #0099ff10;
         position: absolute;
-        left: 0px;
+        right: 24px;
         top: 110px;
         overflow: hidden;
     
