@@ -14,15 +14,26 @@ var typed = new Typed('#element', {
 // Nav bar 
 
 var sidemenu = document.getElementById('sidemenu');
+let closeicon = document.getElementById("closemenu");
+let openicon = document.getElementById("openmenu");
 
+    
 function openmenu() {
     sidemenu.style.top = "0";
+    closeicon.style.visibility = "visible";
+    openicon.style.visibility = "hidden";
+
 
 
 }
 
 function closemenu() {
     sidemenu.style.top = "-400px";
+    closeicon.style.visibility = "hidden";
+    openicon.style.visibility = "visible";
+
+
+
 
 }
 
